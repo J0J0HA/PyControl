@@ -77,6 +77,7 @@ def backup():
     tfile.config("file", "saves.dbin")
     return "Backup done"
 
+
 @server.route("/.movefrom/<string:fid>/.to/<string:tid>/")
 def trans(fid, tid):
     global tfile
