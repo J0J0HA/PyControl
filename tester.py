@@ -1,4 +1,6 @@
-import random
+import
+
+
 def void():
     return random.choice(range(1, 10))
 
