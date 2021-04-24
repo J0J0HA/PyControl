@@ -42,7 +42,6 @@ def getstate():
     actors = tdata.config("actors")
     sensors = tdata.config("sensors")
     for actor in actors.toDict():
-        print(actor)
         result["actors"].update({actors.config(actor).name: actors.config(actor).get_f()})
     for sensor in sensors.toDict():
         result["sensors"].update({sensors.config(sensor).name: sensors.config(sensor).get_f()})
@@ -105,10 +104,7 @@ def add(id):
 @server.route("/.subrule/<int:id>/")
 def sub(id):
     global tfile
-    print(tfile.config("rules").toDict())
     del tfile.config("rules")._args[id]
-    print("deleting", id)
-    print(tfile.config("rules").toDict())
     tfile.save()
     return "removed"
 
