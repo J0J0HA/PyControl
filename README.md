@@ -1,4 +1,4 @@
-# Weboberfläche_Bewässerungssystem
+# PyControl (Bewässerungssystem; teilw. auch smarthome-fähig)
 ### tester.py 
 Testprogramm zur Veranschaulichung des Aufbaus.
 ### main.py
