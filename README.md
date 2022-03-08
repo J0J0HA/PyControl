@@ -1,3 +1,6 @@
+**This Repository is a bit old! (It is horrible!)**  
+**This Repository is in german at the moment!**  
+**This Repository is not being updated at the moment!**  
 # PyControl (Bewässerungssystem; teilw. auch smarthome-fähig)
 ### tester.py 
 Testprogramm zur Veranschaulichung des Aufbaus.
