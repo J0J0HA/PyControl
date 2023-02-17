@@ -1,3 +1,12 @@
+
+
+# Discontinued!
+**This project is either finished or discontinued!**  
+This project is still supported. You may create issues if you encounter errors. Feature request are unlikely to be included.
+
+
+
+
 **This Repository is a bit old! (It is horrible!)**  
 **This Repository is in german at the moment!**  
 **This Repository is not being updated at the moment!**  
